@@ -10,11 +10,11 @@ function fizzBuzz(input) {
   // 把你的解答寫在這裡。要記得 return 喔。
   let result = '';
 	for(let i = 1; i <= input; i++ ){
-	  if(i%15 == false){
-	    result += `FizzBuzz`;
-	  }else if(i%5 == false){
+	  if(i % 15 == false){
+	    result += 'FizzBuzz';
+	  }else if(i % 5 == false){
 	    result += 'Buzz';
-	  }else if(i%3 == false){
+	  }else if(i % 3 == false){
 	    result += 'Fizz';
 	  }else{
 	    result += i;
